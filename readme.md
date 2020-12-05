@@ -13,3 +13,6 @@ $(".target").laracircles({
 		  },
 });
 ```
+
+![alt text](https://github.com/laracodedeveloper/laracircles/blob/main/image.jpg?raw=true)
+
