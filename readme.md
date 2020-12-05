@@ -12,14 +12,14 @@
 <script type="text/javascript" src="js/min/laracircles.min.js"></script>
 ```
 
-## Include plugin style
+### Include plugin style
 
 ```
 <style type="text/css" href="css/laracircles.css"></style>
 ```
 
 
-## Call the plugin
+### Call the plugin
 
 ```
 $(".target").laracircles({
@@ -32,7 +32,7 @@ $(".target").laracircles({
 });
 ```
 
-## Every circle is object data
+### Every circle is object data
 
 
 ```
