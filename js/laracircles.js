@@ -49,8 +49,10 @@
        				
        				a.setAttribute('href', list.url);
 
-       				$(a).width(sizeOfCases);
-       				$(a).height(sizeOfCases);
+       				if(sizeOfCases > settings.circleWidth){
+	       				$(a).width(sizeOfCases);
+	       				$(a).height(sizeOfCases);
+					}
 
        				span.textContent = list.name;
        				a.append(span);
